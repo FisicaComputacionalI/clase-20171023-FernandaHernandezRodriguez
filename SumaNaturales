@@ -1,0 +1,27 @@
+# clase-20171023-FernandaHernandezRodriguez
+clase-20171023-FernandaHernandezRodriguez created by GitHub Classroom
+//Programa que suma N numeros naturales
+//Autor: Maria Fernanda Hernandez Rodriguez
+//Fecha: 23/Octubre/2017
+
+#include <iostream>
+using namespace std;
+
+int main () {
+     
+int n,S;
+cout<<"Introduce un natural n: ";
+cin>>n;
+
+while(n<=0)
+{
+cout<<"Dame un numero NATURAL: ";
+cin>>n;
+}
+
+S=n*(n+1)/2;
+
+cout<<"La suma de los N primeros numeros del natural n es: "<<S<<endl;
+
+return 0;
+}
