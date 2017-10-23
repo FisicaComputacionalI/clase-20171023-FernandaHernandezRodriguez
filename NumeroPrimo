@@ -1,0 +1,28 @@
+# clase-20171023-FernandaHernandezRodriguez
+clase-20171023-FernandaHernandezRodriguez created by GitHub Classroom
+
+//Identificar numeros primos
+//Autor: Maria Fernanda Hernandez Rodriguez
+//Fecha: 23/Octubre/2017
+
+#include <iostream>
+using namespace std;
+
+int main () {
+        int N=0;
+        int prime=0;
+ cout<<"dame un numero primo"<<endl;
+ cin>>N;
+
+for(int i=2; i<=(N/2);i++)
+ {
+        if ((N%i)==0){
+        prime=1;
+        break;
+                   }
+ }
+        if(prime==0)
+                cout<<"tu numero es primo"<<endl;
+                else cout<<"tu numero no es primo"<<endl;
+return 0;
+            }
